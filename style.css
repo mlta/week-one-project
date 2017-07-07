@@ -1,0 +1,173 @@
+/* Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+*/
+
+html{
+  background-color: #F2F1E8;
+}
+body{
+    text-align: center;
+    flex-direction: column;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+display: block;
+padding: 20px 2%;
+width: 100%;
+color: ;
+text-decoration: none;
+background-color: #FFFFFF;
+font-family: #2B2F26;
+}
+
+.row-1,
+.row-2 {
+display: flex;
+flex-wrap :wrap;
+height: 350px;
+margin: 0 30px;
+overflow: hidden;
+width: 1280px;
+}
+.row-1 p,
+.row-2 p {
+text-align: left;
+background-color: #2A3025;
+color: #F2F1E8;
+font-family: 'Merriweather';
+padding: 8px 16px;
+position: absolute;
+
+}
+.row-2 {
+/*display: flex;*/
+}
+
+
+.row-2 p{
+
+
+}
+.empty-image-1 {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  width: 25em
+
+}
+
+.empty-image-2 {
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  width: 25em;
+}
+
+.empty-image-3 {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  width: 25em;
+}
+
+.empty-image-2-1 {
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+    width: 25em;
+
+}
+.empty-image-2-2 {
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+    width: 25em;
+}
+
+.empty-image-2-3 {
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+    width: 25em;
+}
+.empty-image-2-4 {
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+    width: 25em;
+
+}
+footer {
+  background-color: #2B2F26;
+  color: #FFFFFF;
+  padding: 2em
+}
+
+/*NEWSLETTER*/
+
+section {
+  background-image: url("images/background-2.jpg");
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: fixed;/* ask why*/
+
+
+}
+/*.content-form {
+  margin-top: 4em;
+}
+*/
+
+/* ABOUT*/
+
+.intro img {
+  margin: 0px 15px 15px 0px;
+  height: 100px;
+  float: left;
+}
+
+.divider {
+  background-image: url("images/background-3.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: auto;
+  color: #FFFFFF;
+  background-size: cover;
+}
+
+
+.history {
+  margin-bottom: 30px;
+}
+
+
+
+.facilities {
+  display: flex;
+  flex-direction: row;
+}
+
+
+figure {
+  float: right;
+  width: 30%;
+}
+
+figure img {
+  width: 160px;
+  height: auto;
+}
